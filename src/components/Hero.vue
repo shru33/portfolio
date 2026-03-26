@@ -32,7 +32,7 @@
         hover:scale-105 transition duration-300">
           View Work →
         </a>
-        <a href="/resume.pdf" target="_blank" class="px-6 py-3 rounded-full border border-gray-400 
+        <a :href="resumeUrl" target="_blank" class="px-6 py-3 rounded-full border border-gray-400 
         hover:bg-white hover:text-black transition duration-300 flex items-center gap-2">
           ⬇ Download Resume
         </a>
@@ -45,6 +45,9 @@
     </div>
   </section>
 </template>
+<script setup>
+const resumeUrl = import.meta.env.BASE_URL + 'resume.pdf'
+</script>
 
 <style scoped>
 .hero {

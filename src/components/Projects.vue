@@ -81,13 +81,15 @@
 </template>
 
 <script setup>
+const baseUrl = import.meta.env.BASE_URL
+
 const projects = [
   {
     id: 1,
     title: 'ASMR Stars® – ASMR Video Platform',
     description: 'The #1 ASMR Video Content Creator Platform! Earn with ASMR videos, get more fans and connect with top ASMR creators.',
     techs: ['Laravel', 'Vue js', 'Bootstrap'],
-    image: '/projects/asmr.jpg',
+    image: `${baseUrl}projects/asmr.jpg`,
     link: 'https://asmrstars.com/'
   },
   {
@@ -95,7 +97,7 @@ const projects = [
     title: 'Resume Builder',
     description: 'A browser-based resume builder with real-time preview and one-click PDF export. No login, no friction — just fill in your details and download.',
     techs: ['Vue js'],
-    image: '/projects/resume-builder.jpg',
+    image: `${baseUrl}projects/resume-builder.jpg`,
     link: 'https://shru33.github.io/resume-builder/'
   },
   {
@@ -103,7 +105,7 @@ const projects = [
     title: 'Lewero',
     description: 'Electricity & Gas for Businesses. Whether SME, Retail, Grocery, or Property Management.',
     techs: ['Typo3', 'Extbase', 'jQuery'],
-    image: '/projects/lewero.jpg',
+    image: `${baseUrl}/projects/lewero.jpg`,
     link: 'https://lewero.de/'
   },
   {
@@ -111,7 +113,7 @@ const projects = [
     title: 'Bestattungen Fraund/Amelung in Wiesbaden',
     description: 'Bestattungen Fraund/Amelung in Wiesbaden offers all services related to funerals and funeral pre-planning',
     techs: ['Typo3', 'Extbase', 'jQuery'],
-    image: '/projects/fraund-amelung.jpg',
+    image: `${baseUrl}/projects/fraund-amelung.jpg`,
     link: 'https://fraund-amelung.de/'
   },
   {
@@ -119,7 +121,7 @@ const projects = [
     title: 'Property Management System',
     description: 'Designed and delivered a user-friendly property management solution that simplifies day-to-day operations for small to medium property owners',
     techs: ['Laravel', 'AdminLte'],
-    image: '/projects/whitehouse.jpg',
+    image: `${baseUrl}projects/whitehouse.jpg`,
     link: '#'
   },
   {
@@ -127,7 +129,7 @@ const projects = [
     title: 'Senckenberg Turm',
     description: 'With the Senckenberg Tower, a new and exciting era begins in Frankfurt. A well-known location is reinventing itself and becoming a communicative hub for work, life, lifestyle, hotel, leisure, and culture',
     techs: ['Typo3', 'Extbase', 'jQuery'],
-    image: '/projects/senckenbergturm.jpg',
+    image: `${baseUrl}projects/senckenbergturm.jpg`,
     link: 'https://senckenbergturm.de'
   },
   {
@@ -135,7 +137,7 @@ const projects = [
     title: 'YORCKS CAMPUS',
     description: 'YORCKS offers ideal office spaces in Düsseldorf to connect with others. Rental space for offices, training, retail, fitness, and gastronomy',
     techs: ['Typo3', 'Extbase', 'jQuery'],
-    image: '/projects/yorcks.jpg',
+    image: `${baseUrl}projects/yorcks.jpg`,
     link: 'https://www.yorcks.com/'
   }
 ]
