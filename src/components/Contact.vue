@@ -27,7 +27,7 @@
         </a>
 
         <a
-          href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"
+          href="https://www.linkedin.com/in/shruti-hegde-7b927a3aa"
           target="_blank"
           class="flex items-center gap-3 text-gray-600 hover:text-gray-900 transition-colors group"
         >
