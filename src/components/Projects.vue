@@ -100,6 +100,15 @@ const baseUrl = import.meta.env.BASE_URL
 const projects = [
   {
     id: 1,
+    title: 'Expense Tracker',
+    description: 'Track Income and Expenses',
+    techs: ['React', 'node', 'Express', 'Mongodb'],
+    image: `${baseUrl}projects/expense_tracker.jpg`,
+    link: 'https://expense-tracker-bi5i.vercel.app/',
+    github: 'https://github.com/shru33/expense-tracker'
+  },
+  {
+    id: 2,
     title: 'ASMR Stars® – ASMR Video Platform',
     description: 'The #1 ASMR Video Content Creator Platform! Earn with ASMR videos, get more fans and connect with top ASMR creators.',
     techs: ['Laravel', 'Vue js', 'Bootstrap'],
@@ -107,7 +116,7 @@ const projects = [
     link: 'https://asmrstars.com/'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Resume Builder',
     description: 'A browser-based resume builder with real-time preview and one-click PDF export. No login, no friction — just fill in your details and download.',
     techs: ['Vue js'],
@@ -116,7 +125,7 @@ const projects = [
     github: 'https://github.com/shru33/resume-builder'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Lewero',
     description: 'Electricity & Gas for Businesses. Whether SME, Retail, Grocery, or Property Management.',
     techs: ['Typo3', 'Extbase', 'jQuery'],
@@ -124,7 +133,7 @@ const projects = [
     link: 'https://lewero.de/'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Bestattungen Fraund/Amelung in Wiesbaden',
     description: 'Bestattungen Fraund/Amelung in Wiesbaden offers all services related to funerals and funeral pre-planning',
     techs: ['Typo3', 'Extbase', 'jQuery'],
@@ -132,7 +141,7 @@ const projects = [
     link: 'https://fraund-amelung.de/'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Property Management System',
     description: 'Designed and delivered a user-friendly property management solution that simplifies day-to-day operations for small to medium property owners',
     techs: ['Laravel', 'AdminLte'],
@@ -140,7 +149,7 @@ const projects = [
     link: '#'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Senckenberg Turm',
     description: 'With the Senckenberg Tower, a new and exciting era begins in Frankfurt. A well-known location is reinventing itself and becoming a communicative hub for work, life, lifestyle, hotel, leisure, and culture',
     techs: ['Typo3', 'Extbase', 'jQuery'],
@@ -148,7 +157,7 @@ const projects = [
     link: 'https://senckenbergturm.de'
   },
   {
-    id: 7,
+    id: 8,
     title: 'YORCKS CAMPUS',
     description: 'YORCKS offers ideal office spaces in Düsseldorf to connect with others. Rental space for offices, training, retail, fitness, and gastronomy',
     techs: ['Typo3', 'Extbase', 'jQuery'],
