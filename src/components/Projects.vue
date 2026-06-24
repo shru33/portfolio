@@ -103,7 +103,7 @@ const projects = [
     title: 'Expense Tracker',
     description: 'Track Income and Expenses',
     techs: ['React', 'node', 'Express', 'Mongodb'],
-    image: `${baseUrl}projects/expense_tracker.jpg`,
+    image: `${baseUrl}projects/expense_tracker.png`,
     link: 'https://expense-tracker-bi5i.vercel.app/',
     github: 'https://github.com/shru33/expense-tracker'
   },
